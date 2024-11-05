@@ -1,0 +1,19 @@
+-------- VALUES FOR TRACE 1 --------
+Mean value for Trace 1 = 5.494832884000001
+2nd moment for Trace 1 = 36.4073342754228
+3rd moment for Trace 1 = 294.34371121790457
+Variance for Trace 1 = 6.214145852335042
+Standard deviation for Trace 1 = 2.4928188567031984
+Coefficient of variation for Trace 1 = 0.4536660002821658
+Uniform distribution (a, b) = (1.1771439701243045, 9.812521797875696)
+Exponential distribution lambda = 0.1819891561965108
+Erlang distribution (k, lambda) = (5.0, 0.909945780982554)
+Weibull distribution (lambda, k) = (6.200926909345008, 2.3418852787817084)
+Pareto distribution (m, alpha) = (3.8882817685221087, 3.4203347110512445)
+Hyperexponential distribution (l1, l2, p1, p2) = (0.18099031620491052, 0.18199031620490944, 0.0010000000132306122, 0.9989999999867694)
+Hypoexponential distribution (l1, l2) = (0.3634791360071275, 0.364479136007188)
+
+-------- VALUES FOR TRACE 2 --------
+Mean value for Trace 2 = 3.6138703007600004
+2nd moment for Trace 2 = 469.5958518083652
+3rd moment for Trace 2 = 941390.0073716098
