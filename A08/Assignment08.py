@@ -32,6 +32,8 @@ while t < tMax:
 
     # Simulate durations using exponential distributions
     
+    
+    # The scale is a parameter = 1/lambda so it takes into consideration the fact the the values are the means for the length fo the songs
     # Mean duration of the current song
     base_length = np.random.exponential(scale=data.iloc[s-1]['length'])
  
