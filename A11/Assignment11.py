@@ -41,9 +41,9 @@ response_time = D + ((_lambda_ * second_moment) / (2 * (1 - rho)))
 average_jobs = rho + ((_lambda_ * _lambda_ * second_moment) / (2 * (1 - rho)))  # L = λ * R
 
 # Output results
-print(f"Utilization of the system: {utilization:.4f}")
-print(f"Average response time: {response_time:.4f} seconds")
-print(f"Average number of jobs in the system: {average_jobs:.4f}")
+print("Utilization:", utilization)
+print("Avg Response time [ms]:", response_time * 1000)
+print("Avg number of jobs in the system:", average_jobs)
 print("-"* 20)
 
 
@@ -55,6 +55,9 @@ print("SECOND YEAR:")
 c = 1
 
 utilization2 = _lambda_ * D / c
+
+if utilization2 >= 1:
+    raise ValueError("System is unstable (utilization >= 1).")
 
 #Parameters for Hyper-Exp dist
 lam1Hyper = 40
